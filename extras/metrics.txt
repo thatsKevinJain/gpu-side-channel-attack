@@ -1,0 +1,872 @@
+CUDA Device Id  : 0
+CUDA Device Name: NVIDIA Tegra X1
+
+Metric# 1
+Id        = 2001
+Name      = sm_efficiency
+Shortdesc = Multiprocessor Activity
+Longdesc  = The percentage of time at least one warp is active on a specific multiprocessor
+
+Metric# 2
+Id        = 2002
+Name      = achieved_occupancy
+Shortdesc = Achieved Occupancy
+Longdesc  = Ratio of the average active warps per active cycle to the maximum number of warps supported on a multiprocessor
+
+Metric# 3
+Id        = 2003
+Name      = ipc
+Shortdesc = Executed IPC
+Longdesc  = Instructions executed per cycle
+
+Metric# 4
+Id        = 2004
+Name      = issued_ipc
+Shortdesc = Issued IPC
+Longdesc  = Instructions issued per cycle
+
+Metric# 5
+Id        = 2005
+Name      = inst_per_warp
+Shortdesc = Instructions per warp
+Longdesc  = Average number of instructions executed by each warp
+
+Metric# 6
+Id        = 2006
+Name      = branch_efficiency
+Shortdesc = Branch Efficiency
+Longdesc  = Ratio of non-divergent branches to total branches expressed as percentage
+
+Metric# 7
+Id        = 2007
+Name      = warp_execution_efficiency
+Shortdesc = Warp Execution Efficiency
+Longdesc  = Ratio of the average active threads per warp to the maximum number of threads per warp supported on a multiprocessor
+
+Metric# 8
+Id        = 2008
+Name      = warp_nonpred_execution_efficiency
+Shortdesc = Warp Non-Predicated Execution Efficiency
+Longdesc  = Ratio of the average active threads per warp executing non-predicated instructions to the maximum number of threads per warp supported on a multiprocessor
+
+Metric# 9
+Id        = 2009
+Name      = inst_replay_overhead
+Shortdesc = Instruction Replay Overhead
+Longdesc  = Average number of replays for each instruction executed
+
+Metric# 10
+Id        = 2010
+Name      = issue_slot_utilization
+Shortdesc = Issue Slot Utilization
+Longdesc  = Percentage of issue slots that issued at least one instruction, averaged across all cycles
+
+Metric# 11
+Id        = 2011
+Name      = shared_load_transactions_per_request
+Shortdesc = Shared Memory Load Transactions Per Request
+Longdesc  = Average number of shared memory load transactions performed for each shared memory load
+
+Metric# 12
+Id        = 2012
+Name      = shared_store_transactions_per_request
+Shortdesc = Shared Memory Store Transactions Per Request
+Longdesc  = Average number of shared memory store transactions performed for each shared memory store
+
+Metric# 13
+Id        = 2013
+Name      = local_load_transactions_per_request
+Shortdesc = Local Memory Load Transactions Per Request
+Longdesc  = Average number of local memory load transactions performed for each local memory load
+
+Metric# 14
+Id        = 2014
+Name      = local_store_transactions_per_request
+Shortdesc = Local Memory Store Transactions Per Request
+Longdesc  = Average number of local memory store transactions performed for each local memory store
+
+Metric# 15
+Id        = 2016
+Name      = gst_transactions_per_request
+Shortdesc = Global Store Transactions Per Request
+Longdesc  = Average number of global memory store transactions performed for each global memory store
+
+Metric# 16
+Id        = 2017
+Name      = shared_store_transactions
+Shortdesc = Shared Store Transactions
+Longdesc  = Number of shared memory store transactions
+
+Metric# 17
+Id        = 2018
+Name      = shared_load_transactions
+Shortdesc = Shared Load Transactions
+Longdesc  = Number of shared memory load transactions
+
+Metric# 18
+Id        = 2019
+Name      = local_load_transactions
+Shortdesc = Local Load Transactions
+Longdesc  = Number of local memory load transactions
+
+Metric# 19
+Id        = 2020
+Name      = local_store_transactions
+Shortdesc = Local Store Transactions
+Longdesc  = Number of local memory store transactions
+
+Metric# 20
+Id        = 2022
+Name      = gst_transactions
+Shortdesc = Global Store Transactions
+Longdesc  = Number of global memory store transactions
+
+Metric# 21
+Id        = 2029
+Name      = global_hit_rate
+Shortdesc = Global Hit Rate in unified l1/tex
+Longdesc  = Hit rate for global loads in unified l1/tex cache. Metric value maybe wrong if malloc is used in kernel.
+
+Metric# 22
+Id        = 2030
+Name      = local_hit_rate
+Shortdesc = Local Hit Rate
+Longdesc  = Hit rate for local loads and stores
+
+Metric# 23
+Id        = 2031
+Name      = gld_requested_throughput
+Shortdesc = Requested Global Load Throughput
+Longdesc  = Requested global memory load throughput
+
+Metric# 24
+Id        = 2032
+Name      = gst_requested_throughput
+Shortdesc = Requested Global Store Throughput
+Longdesc  = Requested global memory store throughput
+
+Metric# 25
+Id        = 2033
+Name      = gld_throughput
+Shortdesc = Global Load Throughput
+Longdesc  = Global memory load throughput
+
+Metric# 26
+Id        = 2034
+Name      = gst_throughput
+Shortdesc = Global Store Throughput
+Longdesc  = Global memory store throughput
+
+Metric# 27
+Id        = 2041
+Name      = tex_cache_throughput
+Shortdesc = Unified Cache Throughput
+Longdesc  = Unified cache throughput
+
+Metric# 28
+Id        = 2048
+Name      = local_load_throughput
+Shortdesc = Local Memory Load Throughput
+Longdesc  = Local memory load throughput
+
+Metric# 29
+Id        = 2049
+Name      = local_store_throughput
+Shortdesc = Local Memory Store Throughput
+Longdesc  = Local memory store throughput
+
+Metric# 30
+Id        = 2050
+Name      = shared_load_throughput
+Shortdesc = Shared Memory Load Throughput
+Longdesc  = Shared memory load throughput
+
+Metric# 31
+Id        = 2051
+Name      = shared_store_throughput
+Shortdesc = Shared Memory Store Throughput
+Longdesc  = Shared memory store throughput
+
+Metric# 32
+Id        = 2052
+Name      = gld_efficiency
+Shortdesc = Global Memory Load Efficiency
+Longdesc  = Ratio of requested global memory load throughput to required global memory load throughput expressed as percentage.
+
+Metric# 33
+Id        = 2053
+Name      = gst_efficiency
+Shortdesc = Global Memory Store Efficiency
+Longdesc  = Ratio of requested global memory store throughput to required global memory store throughput expressed as percentage.
+
+Metric# 34
+Id        = 2054
+Name      = tex_cache_transactions
+Shortdesc = Unified Cache Transactions
+Longdesc  = Unified cache read transactions
+
+Metric# 35
+Id        = 2055
+Name      = cf_fu_utilization
+Shortdesc = Control-Flow Function Unit Utilization
+Longdesc  = The utilization level of the multiprocessor function units that execute control-flow instructions on a scale of 0 to 10
+
+Metric# 36
+Id        = 2056
+Name      = tex_fu_utilization
+Shortdesc = Texture Function Unit Utilization
+Longdesc  = The utilization level of the multiprocessor function units that execute global, local and texture memory instructions on a scale of 0 to 10
+
+Metric# 37
+Id        = 2057
+Name      = ldst_fu_utilization
+Shortdesc = Load/Store Function Unit Utilization
+Longdesc  = The utilization level of the multiprocessor function units that execute shared load, shared store and constant load instructions on a scale of 0 to 10
+
+Metric# 38
+Id        = 2058
+Name      = double_precision_fu_utilization
+Shortdesc = Double-Precision Function Unit Utilization
+Longdesc  = The utilization level of the multiprocessor function units that execute double-precision floating-point instructions on a scale of 0 to 10
+
+Metric# 39
+Id        = 2059
+Name      = special_fu_utilization
+Shortdesc = Special Function Unit Utilization
+Longdesc  = The utilization level of the multiprocessor function units that execute sin, cos, ex2, popc, flo, and similar instructions on a scale of 0 to 10
+
+Metric# 40
+Id        = 2060
+Name      = single_precision_fu_utilization
+Shortdesc = Single-Precision Function Unit Utilization
+Longdesc  = The utilization level of the multiprocessor function units that execute single-precision floating-point instructions and integer instructions on a scale of 0 to 10
+
+Metric# 41
+Id        = 2061
+Name      = flop_count_dp
+Shortdesc = Floating Point Operations(Double Precision)
+Longdesc  = Number of double-precision floating-point operations executed by non-predicated threads (add, multiply, and multiply-accumulate). Each multiply-accumulate operation contributes 2 to the count.
+
+Metric# 42
+Id        = 2062
+Name      = flop_count_dp_add
+Shortdesc = Floating Point Operations(Double Precision Add)
+Longdesc  = Number of double-precision floating-point add operations executed by non-predicated threads.
+
+Metric# 43
+Id        = 2063
+Name      = flop_count_dp_fma
+Shortdesc = Floating Point Operations(Double Precision FMA)
+Longdesc  = Number of double-precision floating-point multiply-accumulate operations executed by non-predicated threads. Each multiply-accumulate operation contributes 1 to the count.
+
+Metric# 44
+Id        = 2064
+Name      = flop_count_dp_mul
+Shortdesc = Floating Point Operations(Double Precision Mul)
+Longdesc  = Number of double-precision floating-point multiply operations executed by non-predicated threads.
+
+Metric# 45
+Id        = 2065
+Name      = flop_count_sp
+Shortdesc = Floating Point Operations(Single Precision)
+Longdesc  = Number of single-precision floating-point operations executed by non-predicated threads (add, multiply, and multiply-accumulate). Each multiply-accumulate operation contributes 2 to the count. The count does not include special operations.
+
+Metric# 46
+Id        = 2066
+Name      = flop_count_sp_add
+Shortdesc = Floating Point Operations(Single Precision Add)
+Longdesc  = Number of single-precision floating-point add operations executed by non-predicated threads.
+
+Metric# 47
+Id        = 2067
+Name      = flop_count_sp_fma
+Shortdesc = Floating Point Operations(Single Precision FMA)
+Longdesc  = Number of single-precision floating-point multiply-accumulate operations executed by non-predicated threads. Each multiply-accumulate operation contributes 1 to the count.
+
+Metric# 48
+Id        = 2068
+Name      = flop_count_sp_mul
+Shortdesc = Floating Point Operation(Single Precision Mul)
+Longdesc  = Number of single-precision floating-point multiply operations executed by non-predicated threads.
+
+Metric# 49
+Id        = 2069
+Name      = flop_count_sp_special
+Shortdesc = Floating Point Operations(Single Precision Special)
+Longdesc  = Number of single-precision floating-point special operations executed by non-predicated threads.
+
+Metric# 50
+Id        = 2070
+Name      = inst_executed
+Shortdesc = Instructions Executed
+Longdesc  = The number of instructions executed
+
+Metric# 51
+Id        = 2071
+Name      = inst_issued
+Shortdesc = Instructions Issued
+Longdesc  = The number of instructions issued
+
+Metric# 52
+Id        = 2074
+Name      = tex_utilization
+Shortdesc = Unified Cache Utilization
+Longdesc  = The utilization level of the unified cache relative to the peak utilization on a scale of 0 to 10
+
+Metric# 53
+Id        = 2084
+Name      = shared_efficiency
+Shortdesc = Shared Memory Efficiency
+Longdesc  = Ratio of requested shared memory throughput to required shared memory throughput expressed as percentage
+
+Metric# 54
+Id        = 2085
+Name      = shared_utilization
+Shortdesc = Shared Memory Utilization
+Longdesc  = The utilization level of the shared memory relative to peak utilization on a scale of 0 to 10
+
+Metric# 55
+Id        = 2086
+Name      = inst_fp_32
+Shortdesc = FP Instructions(Single)
+Longdesc  = Number of single-precision floating-point instructions executed by non-predicated threads (arithmetic, compare, etc.)
+
+Metric# 56
+Id        = 2087
+Name      = inst_fp_64
+Shortdesc = FP Instructions(Double)
+Longdesc  = Number of double-precision floating-point instructions executed by non-predicated threads (arithmetic, compare, etc.)
+
+Metric# 57
+Id        = 2088
+Name      = inst_integer
+Shortdesc = Integer Instructions
+Longdesc  = Number of integer instructions executed by non-predicated threads
+
+Metric# 58
+Id        = 2089
+Name      = inst_bit_convert
+Shortdesc = Bit-Convert Instructions
+Longdesc  = Number of bit-conversion instructions executed by non-predicated threads
+
+Metric# 59
+Id        = 2090
+Name      = inst_control
+Shortdesc = Control-Flow Instructions
+Longdesc  = Number of control-flow instructions executed by non-predicated threads (jump, branch, etc.)
+
+Metric# 60
+Id        = 2091
+Name      = inst_compute_ld_st
+Shortdesc = Load/Store Instructions
+Longdesc  = Number of compute load/store instructions executed by non-predicated threads
+
+Metric# 61
+Id        = 2092
+Name      = inst_misc
+Shortdesc = Misc Instructions
+Longdesc  = Number of miscellaneous instructions executed by non-predicated threads
+
+Metric# 62
+Id        = 2093
+Name      = inst_inter_thread_communication
+Shortdesc = Inter-Thread Instructions
+Longdesc  = Number of inter-thread communication instructions executed by non-predicated threads
+
+Metric# 63
+Id        = 2094
+Name      = issue_slots
+Shortdesc = Issue Slots
+Longdesc  = The number of issue slots used
+
+Metric# 64
+Id        = 2095
+Name      = cf_issued
+Shortdesc = Issued Control-Flow Instructions
+Longdesc  = Number of issued control-flow instructions
+
+Metric# 65
+Id        = 2096
+Name      = cf_executed
+Shortdesc = Executed Control-Flow Instructions
+Longdesc  = Number of executed control-flow instructions
+
+Metric# 66
+Id        = 2097
+Name      = ldst_issued
+Shortdesc = Issued Load/Store Instructions
+Longdesc  = Number of issued local, global, shared and texture memory load and store instructions
+
+Metric# 67
+Id        = 2098
+Name      = ldst_executed
+Shortdesc = Executed Load/Store Instructions
+Longdesc  = Number of executed local, global, shared and texture memory load and store instructions
+
+Metric# 68
+Id        = 2099
+Name      = atomic_transactions
+Shortdesc = Atomic Transactions
+Longdesc  = Global memory atomic and reduction transactions
+
+Metric# 69
+Id        = 2100
+Name      = atomic_transactions_per_request
+Shortdesc = Atomic Transactions Per Request
+Longdesc  = Average number of global memory atomic and reduction transactions performed for each atomic and reduction instruction
+
+Metric# 70
+Id        = 2104
+Name      = inst_executed_global_loads
+Shortdesc = Warp level instructions for global loads
+Longdesc  = Warp level instructions for global loads
+
+Metric# 71
+Id        = 2105
+Name      = inst_executed_local_loads
+Shortdesc = Warp level instructions for local loads
+Longdesc  = Warp level instructions for local loads
+
+Metric# 72
+Id        = 2106
+Name      = inst_executed_shared_loads
+Shortdesc = Warp level instructions for shared loads
+Longdesc  = Warp level instructions for shared loads
+
+Metric# 73
+Id        = 2107
+Name      = inst_executed_surface_loads
+Shortdesc = Warp level instructions for surface loads
+Longdesc  = Warp level instructions for surface loads
+
+Metric# 74
+Id        = 2108
+Name      = inst_executed_global_stores
+Shortdesc = Warp level instructions for global stores
+Longdesc  = Warp level instructions for global stores
+
+Metric# 75
+Id        = 2109
+Name      = inst_executed_local_stores
+Shortdesc = Warp level instructions for local stores
+Longdesc  = Warp level instructions for local stores
+
+Metric# 76
+Id        = 2110
+Name      = inst_executed_shared_stores
+Shortdesc = Warp level instructions for shared stores
+Longdesc  = Warp level instructions for shared stores
+
+Metric# 77
+Id        = 2111
+Name      = inst_executed_surface_stores
+Shortdesc = Warp level instructions for surface stores
+Longdesc  = Warp level instructions for surface stores
+
+Metric# 78
+Id        = 2112
+Name      = inst_executed_global_atomics
+Shortdesc = Warp level instructions for global atom and atom cas
+Longdesc  = Warp level instructions for global atom and atom cas
+
+Metric# 79
+Id        = 2113
+Name      = inst_executed_global_reductions
+Shortdesc = Warp level instructions for global reductions
+Longdesc  = Warp level instructions for global reductions
+
+Metric# 80
+Id        = 2114
+Name      = inst_executed_surface_atomics
+Shortdesc = Warp level instructions for surface atom and atom cas
+Longdesc  = Warp level instructions for surface atom and atom cas
+
+Metric# 81
+Id        = 2115
+Name      = inst_executed_surface_reductions
+Shortdesc = Warp level instructions for surface reductions
+Longdesc  = Warp level instructions for surface reductions
+
+Metric# 82
+Id        = 2116
+Name      = inst_executed_shared_atomics
+Shortdesc = Warp level shared instructions for atom and atom CAS
+Longdesc  = Warp level shared instructions for atom and atom CAS
+
+Metric# 83
+Id        = 2117
+Name      = inst_executed_tex_ops
+Shortdesc = Warp level instructions for texture
+Longdesc  = Warp level instructions for texture
+
+Metric# 84
+Id        = 2118
+Name      = l2_global_load_bytes
+Shortdesc = Bytes read from L2 for misses in Unified Cache for global loads
+Longdesc  = Bytes read from L2 for misses in Unified Cache for global loads
+
+Metric# 85
+Id        = 2119
+Name      = l2_local_load_bytes
+Shortdesc = Bytes read from L2 for misses in Unified Cache for local loads
+Longdesc  = Bytes read from L2 for misses in Unified Cache for local loads
+
+Metric# 86
+Id        = 2120
+Name      = l2_surface_load_bytes
+Shortdesc = Bytes read from L2 for misses in Unified Cache for surface loads
+Longdesc  = Bytes read from L2 for misses in Unified Cache for surface loads
+
+Metric# 87
+Id        = 2123
+Name      = l2_local_global_store_bytes
+Shortdesc = Bytes written to L2 from Unified Cache for local and global stores.
+Longdesc  = Bytes written to L2 from Unified Cache for local and global stores. This does not include global atomics.
+
+Metric# 88
+Id        = 2124
+Name      = l2_global_reduction_bytes
+Shortdesc = Bytes written to L2 from Unified cache for global reductions
+Longdesc  = Bytes written to L2 from Unified cache for global reductions
+
+Metric# 89
+Id        = 2125
+Name      = l2_global_atomic_store_bytes
+Shortdesc = Bytes written to L2 from Unified cache for global atomics
+Longdesc  = Bytes written to L2 from Unified cache for global atomics (ATOM and ATOM CAS)
+
+Metric# 90
+Id        = 2126
+Name      = l2_surface_store_bytes
+Shortdesc = Bytes written to L2 from Unified Cache for surface stores.
+Longdesc  = Bytes written to L2 from Unified Cache for surface stores. This does not include surface atomics.
+
+Metric# 91
+Id        = 2127
+Name      = l2_surface_reduction_bytes
+Shortdesc = Bytes written to L2 from Unified Cache for surface reductions
+Longdesc  = Bytes written to L2 from Unified Cache for surface reductions
+
+Metric# 92
+Id        = 2128
+Name      = l2_surface_atomic_store_bytes
+Shortdesc = Bytes transferred between Unified Cache and L2 for surface atomics
+Longdesc  = Bytes transferred between Unified Cache and L2 for surface atomics (ATOM and ATOM CAS)
+
+Metric# 93
+Id        = 2131
+Name      = global_load_requests
+Shortdesc = Total number of global load requests from Multiprocessor
+Longdesc  = Total number of global load requests from Multiprocessor
+
+Metric# 94
+Id        = 2132
+Name      = local_load_requests
+Shortdesc = Total number of local load requests from Multiprocessor
+Longdesc  = Total number of local load requests from Multiprocessor
+
+Metric# 95
+Id        = 2133
+Name      = surface_load_requests
+Shortdesc = Total number of surface load requests from Multiprocessor
+Longdesc  = Total number of surface load requests from Multiprocessor
+
+Metric# 96
+Id        = 2134
+Name      = global_store_requests
+Shortdesc = Total number of global store requests from Multiprocessor
+Longdesc  = Total number of global store requests from Multiprocessor. This does not include atomic requests.
+
+Metric# 97
+Id        = 2135
+Name      = local_store_requests
+Shortdesc = Total number of local store requests from Multiprocessor
+Longdesc  = Total number of local store requests from Multiprocessor
+
+Metric# 98
+Id        = 2136
+Name      = surface_store_requests
+Shortdesc = Total number of surface store requests from Multiprocessor
+Longdesc  = Total number of surface store requests from Multiprocessor
+
+Metric# 99
+Id        = 2137
+Name      = global_atomic_requests
+Shortdesc = Total number of global atomic requests from Multiprocessor
+Longdesc  = Total number of global atomic(Atom and Atom CAS) requests from Multiprocessor
+
+Metric# 100
+Id        = 2138
+Name      = global_reduction_requests
+Shortdesc = Total number of global reduction requests from Multiprocessor
+Longdesc  = Total number of global reduction requests from Multiprocessor
+
+Metric# 101
+Id        = 2139
+Name      = surface_atomic_requests
+Shortdesc = Total number of surface atomic requests from Multiprocessor
+Longdesc  = Total number of surface atomic(Atom and Atom CAS) requests from Multiprocessor
+
+Metric# 102
+Id        = 2140
+Name      = surface_reduction_requests
+Shortdesc = Total number of surface reduction requests from Multiprocessor
+Longdesc  = Total number of surface reduction requests from Multiprocessor
+
+Metric# 103
+Id        = 2144
+Name      = texture_load_requests
+Shortdesc = Total number of texture Load requests from Multiprocessor
+Longdesc  = Total number of texture Load requests from Multiprocessor
+
+Metric# 104
+Id        = 19136513
+Name      = stall_inst_fetch
+Shortdesc = Issue Stall Reasons (Instructions Fetch)
+Longdesc  = Percentage of stalls occurring because the next assembly instruction has not yet been fetched
+
+Metric# 105
+Id        = 19136514
+Name      = stall_exec_dependency
+Shortdesc = Issue Stall Reasons (Execution Dependency)
+Longdesc  = Percentage of stalls occurring because an input required by the instruction is not yet available
+
+Metric# 106
+Id        = 19136515
+Name      = stall_memory_dependency
+Shortdesc = Issue Stall Reasons (Data Request)
+Longdesc  = Percentage of stalls occurring because a memory operation cannot be performed due to the required resources not being available or fully utilized, or because too many requests of a given type are outstanding
+
+Metric# 107
+Id        = 19136516
+Name      = stall_texture
+Shortdesc = Issue Stall Reasons (Texture)
+Longdesc  = Percentage of stalls occurring because the texture sub-system is fully utilized or has too many outstanding requests
+
+Metric# 108
+Id        = 19136517
+Name      = stall_sync
+Shortdesc = Issue Stall Reasons (Synchronization)
+Longdesc  = Percentage of stalls occurring because the warp is blocked at a __syncthreads() call
+
+Metric# 109
+Id        = 19136518
+Name      = stall_other
+Shortdesc = Issue Stall Reasons (Other)
+Longdesc  = Percentage of stalls occurring due to miscellaneous reasons
+
+Metric# 110
+Id        = 19136519
+Name      = stall_constant_memory_dependency
+Shortdesc = Issue Stall Reasons (Immediate constant)
+Longdesc  = Percentage of stalls occurring because of immediate constant cache miss
+
+Metric# 111
+Id        = 19136520
+Name      = stall_pipe_busy
+Shortdesc = Issue Stall Reasons (Pipe Busy)
+Longdesc  = Percentage of stalls occurring because a compute operation cannot be performed because the compute pipeline is busy
+
+Metric# 112
+Id        = 19136521
+Name      = stall_memory_throttle
+Shortdesc = Issue Stall Reasons (Memory Throttle)
+Longdesc  = Percentage of stalls occurring because of memory throttle
+
+Metric# 113
+Id        = 19136522
+Name      = stall_not_selected
+Shortdesc = Issue Stall Reasons (Not Selected)
+Longdesc  = Percentage of stalls occurring because warp was not selected
+
+Metric# 114
+Id        = 19136523
+Name      = sysmem_read_transactions
+Shortdesc = System Memory Read Transactions
+Longdesc  = Number of system memory read transactions
+
+Metric# 115
+Id        = 19136524
+Name      = sysmem_write_transactions
+Shortdesc = System Memory Write Transactions
+Longdesc  = Number of system memory write transactions
+
+Metric# 116
+Id        = 19136525
+Name      = l2_read_transactions
+Shortdesc = L2 Read Transactions
+Longdesc  = Memory read transactions seen at L2 cache for all read requests
+
+Metric# 117
+Id        = 19136526
+Name      = l2_write_transactions
+Shortdesc = L2 Write Transactions
+Longdesc  = Memory write transactions seen at L2 cache for all write requests
+
+Metric# 118
+Id        = 19136528
+Name      = local_memory_overhead
+Shortdesc = Local Memory Overhead
+Longdesc  = Ratio of local memory traffic to total memory traffic between the L1 and L2 caches expressed as percentage
+
+Metric# 119
+Id        = 19136529
+Name      = tex_cache_hit_rate
+Shortdesc = Unified Cache Hit Rate
+Longdesc  = Unified cache hit rate
+
+Metric# 120
+Id        = 19136532
+Name      = l2_tex_read_throughput
+Shortdesc = L2 Throughput (Texture Reads)
+Longdesc  = Memory read throughput seen at L2 cache for read requests from the texture cache
+
+Metric# 121
+Id        = 19136533
+Name      = l2_tex_write_throughput
+Shortdesc = L2 Throughput (Texture Writes)
+Longdesc  = Memory write throughput seen at L2 cache for write requests from the texture cache
+
+Metric# 122
+Id        = 19136534
+Name      = l2_tex_read_transactions
+Shortdesc = L2 Transactions (Texture Reads)
+Longdesc  = Memory read transactions seen at L2 cache for read requests from the texture cache
+
+Metric# 123
+Id        = 19136535
+Name      = l2_tex_write_transactions
+Shortdesc = L2 Transactions (Texture Writes)
+Longdesc  = Memory write transactions seen at L2 cache for write requests from the texture cache
+
+Metric# 124
+Id        = 19136536
+Name      = l2_read_throughput
+Shortdesc = L2 Throughput (Reads)
+Longdesc  = Memory read throughput seen at L2 cache for all read requests
+
+Metric# 125
+Id        = 19136537
+Name      = l2_write_throughput
+Shortdesc = L2 Throughput (Writes)
+Longdesc  = Memory write throughput seen at L2 cache for all write requests
+
+Metric# 126
+Id        = 19136538
+Name      = sysmem_read_throughput
+Shortdesc = System Memory Read Throughput
+Longdesc  = System memory read throughput
+
+Metric# 127
+Id        = 19136539
+Name      = sysmem_write_throughput
+Shortdesc = System Memory Write Throughput
+Longdesc  = System memory write throughput
+
+Metric# 128
+Id        = 19136541
+Name      = l2_atomic_throughput
+Shortdesc = L2 Throughput (Atomic requests)
+Longdesc  = Memory read throughput seen at L2 cache for atomic and reduction requests
+
+Metric# 129
+Id        = 19136542
+Name      = l2_atomic_transactions
+Shortdesc = L2 Transactions (Atomic requests)
+Longdesc  = Memory read transactions seen at L2 cache for atomic and reduction requests
+
+Metric# 130
+Id        = 19136549
+Name      = sysmem_read_bytes
+Shortdesc = System Memory Read Bytes
+Longdesc  = Number of bytes read from system memory
+
+Metric# 131
+Id        = 19136550
+Name      = sysmem_write_bytes
+Shortdesc = System Memory Write Bytes
+Longdesc  = Number of bytes written to system memory
+
+Metric# 132
+Id        = 19136552
+Name      = gld_transactions
+Shortdesc = Global Load Transactions
+Longdesc  = Number of global memory load transactions
+
+Metric# 133
+Id        = 19136553
+Name      = gld_transactions_per_request
+Shortdesc = Global Load Transactions Per Request
+Longdesc  = Average number of global memory load transactions performed for each global memory load.
+
+Metric# 134
+Id        = 19595271
+Name      = l2_utilization
+Shortdesc = L2 Cache Utilization
+Longdesc  = The utilization level of the L2 cache relative to the peak utilization on a scale of 0 to 10
+
+Metric# 135
+Id        = 19595272
+Name      = dram_utilization
+Shortdesc = Device Memory Utilization
+Longdesc  = The utilization level of the device memory relative to the peak utilization on a scale of 0 to 10
+
+Metric# 136
+Id        = 19595276
+Name      = flop_count_hp
+Shortdesc = Floating Point Operations(Half Precision)
+Longdesc  = Number of half-precision floating-point operations executed by non-predicated threads (add, multiply, and multiply-accumulate). Each multiply-accumulate operation contributes 2 to the count.
+
+Metric# 137
+Id        = 19595277
+Name      = flop_count_hp_add
+Shortdesc = Floating Point Operations(Half Precision Add)
+Longdesc  = Number of half-precision floating-point add operations executed by non-predicated threads.
+
+Metric# 138
+Id        = 19595278
+Name      = flop_count_hp_fma
+Shortdesc = Floating Point Operations(Half Precision FMA)
+Longdesc  = Number of half-precision floating-point multiply-accumulate operations executed by non-predicated threads. Each multiply-accumulate operation contributes 1 to the count.
+
+Metric# 139
+Id        = 19595279
+Name      = flop_count_hp_mul
+Shortdesc = Floating Point Operation(Half Precision Mul)
+Longdesc  = Number of half-precision floating-point multiply operations executed by non-predicated threads.
+
+Metric# 140
+Id        = 19595280
+Name      = flop_hp_efficiency
+Shortdesc = FLOP Efficiency(Peak Half)
+Longdesc  = Ratio of achieved to peak half-precision floating-point operations
+
+Metric# 141
+Id        = 19595281
+Name      = inst_fp_16
+Shortdesc = HP Instructions(Half)
+Longdesc  = Number of half-precision floating-point instructions executed by non-predicated threads (arithmetic, compare, etc.)
+
+Metric# 142
+Id        = 19595282
+Name      = half_precision_fu_utilization
+Shortdesc = Half-Precision Function Unit Utilization
+Longdesc  = The utilization level of the multiprocessor function units that execute 16 bit floating-point instructions on a scale of 0 to 10
+
+Metric# 143
+Id        = 1073741827
+Name      = eligible_warps_per_cycle
+Shortdesc = Eligible Warps Per Active Cycle
+Longdesc  = Average number of warps that are eligible to issue per active cycle
+
+Metric# 144
+Id        = 1073741831
+Name      = flop_sp_efficiency
+Shortdesc = FLOP Efficiency(Peak Single)
+Longdesc  = Ratio of achieved to peak single-precision floating-point operations
+
+Metric# 145
+Id        = 1073741832
+Name      = flop_dp_efficiency
+Shortdesc = FLOP Efficiency(Peak Double)
+Longdesc  = Ratio of achieved to peak double-precision floating-point operations

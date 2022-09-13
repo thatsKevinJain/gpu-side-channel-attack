@@ -1,0 +1,27 @@
+CUDA Device Id  : 0
+CUDA Device Name: NVIDIA Tegra X1
+
+Domain# 1
+Id         = 19595265
+Name       = domain_a
+Profiled instance count = 1
+Total instance count = 1
+Event collection method = CUPTI_EVENT_COLLECTION_METHOD_PM
+Domain# 2
+Id         = 17825807
+Name       = domain_c
+Profiled instance count = 1
+Total instance count = 1
+Event collection method = CUPTI_EVENT_COLLECTION_METHOD_INSTRUMENTED
+Domain# 3
+Id         = 19595271
+Name       = domain_d
+Profiled instance count = 1
+Total instance count = 1
+Event collection method = CUPTI_EVENT_COLLECTION_METHOD_SM
+Domain# 4
+Id         = 19595270
+Name       = domain_e
+Profiled instance count = 1
+Total instance count = 1
+Event collection method = CUPTI_EVENT_COLLECTION_METHOD_PM
